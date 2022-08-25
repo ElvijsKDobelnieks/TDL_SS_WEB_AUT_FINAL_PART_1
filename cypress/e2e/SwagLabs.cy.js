@@ -14,10 +14,10 @@ describe("Swag Labs", () => {
       LoginPage.visit();
     })
     it("Scenario 1", () => {
-    LoginPage.usernameField.click().type("locked_out_user");
-    LoginPage.passwordField.click().type("secret_sauce");
-    LoginPage.loginButton.click();
-    LoginPage.lockedOutMessage.should("contain", "Epic sadface: Sorry, this user has been locked out.");
+      LoginPage.usernameField.click().type("locked_out_user");
+      LoginPage.passwordField.click().type("secret_sauce");
+      LoginPage.loginButton.click();
+      LoginPage.lockedOutMessage.should("contain", "Epic sadface: Sorry, this user has been locked out.");
     });
     it("Scenario 2", () => {
       LoginPage.usernameField.click().type("locstandard_user");

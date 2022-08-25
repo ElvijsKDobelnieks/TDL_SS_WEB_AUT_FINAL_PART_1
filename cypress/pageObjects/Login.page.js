@@ -21,5 +21,4 @@ class LoginPage extends BasePage {
     return cy.get("[data-test='error']");
   }
 }
-
 export default LoginPage;

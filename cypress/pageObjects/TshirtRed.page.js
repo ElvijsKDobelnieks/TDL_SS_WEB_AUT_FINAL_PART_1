@@ -14,15 +14,5 @@ class TshirtRedPage extends BasePage {
   static get shoppingCartBadge() {
     return cy.get(".shopping_cart_badge");
   }
-//   static get shoppingCartLink() {
-//     return cy.get(".shopping_cart_link");
-//   }
-//   static get backToProductsButton() {
-//     return cy.get("#back-to-products");
-//   }
-//   static get removeButton() {
-//     return cy.get("#remove-sauce-labs-bolt-t-shirt");
-//   }
 }
-
 export default TshirtRedPage;

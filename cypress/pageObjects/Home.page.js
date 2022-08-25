@@ -39,5 +39,4 @@ class HomePage extends BasePage {
     return cy.get(".bm-menu");
   }
 }
-
 export default HomePage;

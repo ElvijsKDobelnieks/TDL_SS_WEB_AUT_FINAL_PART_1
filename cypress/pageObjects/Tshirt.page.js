@@ -24,5 +24,4 @@ class TshirtPage extends BasePage {
     return cy.get("#remove-sauce-labs-bolt-t-shirt");
   }
 }
-
 export default TshirtPage;
